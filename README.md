@@ -11,7 +11,7 @@ apiKey: Umbrella API key for the organization.
 apiSecret: Umbrella API secret for the organization.  
 clientID: Umbrella organizational/client ID for the organization.  
 dateToSearch: Integer, how far back to search for traffic in Umbrella. EX: 30 (for 30 days to now)  
--v, --verbose: Boolean (true, false), prints each line of DNS Log along with current domain as it searches.  
+-v, --verbose: Prints each line of DNS Log along with current domain as it searches.  
 -c, --category: Integer, content or security category ID from Umbrella. Allows user to specify what traffic they want to grab from Umbrella. CNC is default (65).  
 -o: Log all command output to a specified file.  
 
