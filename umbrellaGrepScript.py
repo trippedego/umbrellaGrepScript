@@ -14,7 +14,7 @@ parser.add_argument("clientID", type=str, help="Umbrella Client ID for Organizat
 parser.add_argument("dateToSearch", type=str, help="How far back you want to look for logs in Umbrella, from 1 day to 30 days. EX: 30 (for 30 days)")
 parser.add_argument("-o", "--outFile", type=str, help="Name of file to save command output to.")
 parser.add_argument("-c", "--category", type=str, help="Traffic category ID to grab from Umbrella. Command and Control is Default.")
-parser.add_argument("-v", "--verbose", type=str, help="Print verbose output, boolean. EX: True")
+parser.add_argument("-v", "--verbose", action='store_true', help="Print verbose output.")
 args = parser.parse_args()
 
 def getAuth(apiKeyArg, apiSecretArg):
@@ -121,7 +121,7 @@ def parseLog(badDomains):
                 continue
             
             splitDomain = currRecord.split('.')
-            if (args.verbose == "true" or args.verbose == "True"):
+            if (args.verbose):
                 print "Finding {} in {}".format(currRecord, line)
             if splitRE[-3].find(splitDomain[-2]) != -1:
                 if line.find("208.67.220.220") != -1 or line.find("208.67.222.222") != -1 or line.find("127.0.0.1") != -1:
