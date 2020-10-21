@@ -15,5 +15,5 @@ dateToSearch: Integer, how far back to search for traffic in Umbrella. EX: 30 (f
 -c, --category: Integer, content or security category ID from Umbrella. Allows user to specify what traffic they want to grab from Umbrella. CNC is default (65).  
 -o: Log all command output to a specified file.  
 
-
+Written by Peter Kotsiris in Python 2.7.16
 https://github.com/trippedego/umbrellaGrepScript
