@@ -4,7 +4,7 @@ Finds instances of those domains in Windows or Bind9 DNS Logs, returning the sou
   
 Usage:  
   
-python umbrellaGrepScript.py [-h] [-v, --verbose] [-c, --category] [-o OUTFILE] dnsLog apiKey apiSecret clientID dateToSearch  
+python umbrellaGrepScript.py [-h] [-w, --windows] [-b, --bind] [-v, --verbose] [-c, --category] [-o OUTFILE] dnsLog apiKey apiSecret clientID dateToSearch  
   
 dnsLog: DNS Log (Windows or Bind9) to use for parsing. MAKE SURE "DETAILED" IS DISABLED IN WINDOWS DNS DEBUGGING.  
 apiKey: Umbrella API key for the organization.  
