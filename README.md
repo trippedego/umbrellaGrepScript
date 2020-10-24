@@ -1,6 +1,6 @@
 # umbrellaGrepScript
 Pulls domains from Umbrella via API, specified by content or security category ID.  
-Finds instances of those domains in Windows or Bind9 DNS Logs, returning the source IP reaching out to said domain.  
+Finds instances of those domains in Windows or Bind9 DNS Logs, returning the source IPs reaching out to said domain.  
   
 Usage:  
   
@@ -19,3 +19,4 @@ dateToSearch: Integer, how far back to search for traffic in Umbrella. EX: 30 (f
 
 Written by Peter Kotsiris in Python 2.7.16  
 https://github.com/trippedego/umbrellaGrepScript
+  
