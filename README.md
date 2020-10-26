@@ -12,7 +12,9 @@ apiSecret: Umbrella API secret for the organization.
 clientID: Umbrella organizational/client ID for the organization.  
 dateToSearch: Integer, how far back to search for traffic in Umbrella. EX: 30 (for 30 days to now)  
 -s HOSTNAME USERNAME PASSWORD, --smb HOSTNAME USERNAME PASSWORD  
-                        OPTIONAL: Grab Windows DNS Log via SMB. Use: --smb "Server Hostname" "Username" "Password"  
+<pre>
+          OPTIONAL: Grab Windows DNS Log via SMB. Use: --smb "Server Hostname" "Username" "Password"  
+</pre>
 -w, --windows: Parse a Windows DNS Log.  
 -b, --bind: Parse a Bind9 DNS Log.  
 -v, --verbose: Prints each line of DNS Log along with current domain as it searches.  
