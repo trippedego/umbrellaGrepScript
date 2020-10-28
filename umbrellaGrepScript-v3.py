@@ -6,7 +6,6 @@ import json
 import base64
 import sys
 import subprocess
-import threading
 from smb.SMBConnection import SMBConnection
 
 # Parser to grab arguments from the user.
