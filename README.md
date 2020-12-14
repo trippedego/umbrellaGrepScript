@@ -23,4 +23,4 @@ Written by Peter Kotsiris in Python 3.8.5
 https://github.com/trippedego/umbrellaGrepScript
 
 
-![alt text]https://github.com/trippedego/umbrellaGrepScript/blob/main/images/help.png)
+![alt text]https://github.com/trippedego/umbrellaGrepScript/blob/main/images/help.png?raw=true)
