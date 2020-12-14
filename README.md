@@ -21,3 +21,6 @@ dateToSearch: Integer, how far back to search for traffic in Umbrella. EX: 30 (f
 
 Written by Peter Kotsiris in Python 3.8.5  
 https://github.com/trippedego/umbrellaGrepScript
+
+
+![alt text]https://github.com/trippedego/umbrellaGrepScript/blob/main/images/help.png)
